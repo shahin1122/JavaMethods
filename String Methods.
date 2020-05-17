@@ -1,0 +1,45 @@
+package String;
+
+public class str2 {
+	public static void main(String[]args) {
+		String firstName = new String("Shahin ");
+		String lastName = new String("Shah");
+		
+		String con = firstName.concat(lastName);
+		System.out.println("My name is "+ con);
+		
+		
+		String uppercase = firstName.toUpperCase();
+		System.out.println(uppercase);
+		
+		
+		String lowercase = lastName.toLowerCase();
+		System.out.println(lowercase);
+		
+		
+		boolean b = firstName.startsWith("S");
+		System.out.println(b);
+		
+		boolean b1 = lastName.endsWith("h");
+		System.out.println(b1);
+		
+		
+		String[] name = {"Shahin Shah" , "No One " };
+		
+		for(String x : name) {
+			
+			System.out.println(x);
+			
+		}
+		
+		
+		String[] name1 = {"Shahin shah", "Sobuz", "Mirza", "Dj","No one"};
+		
+		for(int i = 0 ; i<4 ; i++) {
+			
+			System.out.println(name1[i]);
+		}
+		
+	}
+
+}
